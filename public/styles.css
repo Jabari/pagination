@@ -1,0 +1,52 @@
+#search {
+  width: 100%;
+  border-radius: 2px;
+  border: 4px #00d1b2 solid;
+  padding: .5rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+ul.details {
+  display: none;
+}
+li {
+  border-bottom: transparent solid 1px;
+  clear: left;
+  color: #888;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin: .5rem 0;
+}
+
+li:hover {
+  border-bottom: #888 solid 1px;
+}
+
+.details li {
+  font-size: 0.7rem;
+  margin: 0.5rem 1rem;
+}
+
+.details li:hover {
+  border: none;
+}
+
+img {
+  height: 130px;
+}
+
+button {
+  border-radius: 6px;
+}
+
+#controls {
+  float: left;
+  margin: 1rem auto;
+  text-align: center;
+  width: 100%;
+}
+
+button:hover, button:active {
+  background: #00d1b2;
+}
